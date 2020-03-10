@@ -1,0 +1,14 @@
+# git commit -m "My 1-st commit"
+[master (корневой коммит) 9bccaf9] My 1-st commit
+ 5 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 file1
+ create mode 100644 script1
+ create mode 100644 script2
+ create mode 100644 script3.test
+
+
+# git branch
+* dev
+  master
+
