@@ -12,3 +12,13 @@
 * dev
   master
 
+# git merge dev
+Обновление 9bccaf9..ed5d956
+Fast-forward
+ dev.txt  |  1 +
+ dev2.txt |  1 +
+ wiki.txt | 14 ++++++++++++++
+ 3 files changed, 16 insertions(+)
+ create mode 100644 dev.txt
+ create mode 100644 dev2.txt
+ create mode 100644 wiki.txt
