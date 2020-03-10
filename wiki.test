@@ -1,0 +1,12 @@
+# git push origin
+Username for 'https://github.com': d-pershin
+Password for 'https://d-pershin@github.com': 
+Подсчет объектов: 10, готово.
+Сжатие объектов: 100% (8/8), готово.
+Запись объектов: 100% (10/10), 998 bytes | 199.00 KiB/s, готово.
+Total 10 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/d-pershin/learning.git
+   9bccaf9..2fecc51  master -> master
+
+
