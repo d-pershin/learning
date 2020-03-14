@@ -1,3 +1,36 @@
+# iperf -c 94.130.173.32 -r -R
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 94.130.173.32, TCP port 5001
+TCP window size: 1.36 MByte (default)
+------------------------------------------------------------
+[  5] local 172.31.1.100 port 42752 connected with 94.130.173.32 port 5001
+[  4] local 172.31.1.100 port 5001 connected with 94.130.173.32 port 42752
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0-10.0 sec  7.74 GBytes  6.65 Gbits/sec
+[  4]  0.0-10.0 sec  7.74 GBytes  6.64 Gbits/sec
+
+
+ # iperf -c 94.130.173.32 -r                                                                                                           
+------------------------------------------------------------                                                                                                  
+Server listening on TCP port 5001                                                                                                                             
+TCP window size: 85.3 KByte (default)                                                                                                                         
+------------------------------------------------------------                                                                                                  
+------------------------------------------------------------                                                                                                  
+Client connecting to 94.130.173.32, TCP port 5001                                                                                                             
+TCP window size:  833 KByte (default)                                                                                                                         
+------------------------------------------------------------                                                                                                  
+[  5] local 172.31.1.100 port 42730 connected with 94.130.173.32 port 5001                                                                                    
+[  4] local 172.31.1.100 port 5001 connected with 94.130.173.32 port 42730                                                                                    
+[ ID] Interval       Transfer     Bandwidth                                                                                                                   
+[  5]  0.0-10.0 sec  8.09 GBytes  6.95 Gbits/sec
+[  4]  0.0-10.0 sec  8.09 GBytes  6.94 Gbits/sec
+
+
+
 # traceroute auth.selcdn.ru
 traceroute to auth.selcdn.ru (92.53.68.204), 30 hops max, 60 byte packets
  1  172.31.1.1 (172.31.1.1)  0.134 ms  0.059 ms  0.065 ms
