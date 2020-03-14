@@ -30,3 +30,14 @@ traceroute to auth.selcdn.ru (92.53.68.204), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+
+# iperf -c 94.130.173.32 -r
+bind failed: Address already in use
+------------------------------------------------------------
+Client connecting to 94.130.173.32, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+[  4] local 172.31.1.100 port 44498 connected with 94.130.173.32 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-10.0 sec  8.62 GBytes  7.40 Gbits/sec
+
