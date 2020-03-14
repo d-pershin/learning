@@ -1,0 +1,43 @@
+# traceroute auth.selcdn.ru
+traceroute to auth.selcdn.ru (92.53.68.204), 30 hops max, 60 byte packets
+ 1  172.31.1.1 (172.31.1.1)  0.134 ms  0.059 ms  0.065 ms
+ 2  * * *
+ 3  * * *
+ 4  spine1.cloud1.nbg1.hetzner.com (85.10.226.129)  0.865 ms  1.341 ms  1.289 ms
+ 5  static.85-10-228-85.clients.your-server.de (85.10.228.85)  0.698 ms core12.nbg1.hetzner.com (85.10.250.213)  0.383 ms 213-239-208-221.clients.your-server.de (213.239.208.221)  0.325 ms
+ 6  * * core1.fra.hetzner.com (213.239.245.250)  3.664 ms
+ 7  core9.fra.hetzner.com (213.239.224.178)  3.596 ms core9.fra.hetzner.com (213.239.224.221)  3.833 ms core8.fra.hetzner.com (213.239.252.9)  3.703 ms
+ 8  core31.hel1.hetzner.com (213.239.224.165)  23.465 ms core32.hel1.hetzner.com (213.239.224.154)  23.553 ms core31.hel1.hetzner.com (213.239.224.165)  23.400 ms
+ 9  juniper4.dc1.hel1.hetzner.com (213.239.224.37)  23.467 ms  23.476 ms  23.435 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+# iperf -c 94.130.173.32 -r
+bind failed: Address already in use
+------------------------------------------------------------
+Client connecting to 94.130.173.32, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+[  4] local 172.31.1.100 port 44498 connected with 94.130.173.32 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-10.0 sec  8.62 GBytes  7.40 Gbits/sec
+
